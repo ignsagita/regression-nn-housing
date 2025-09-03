@@ -2,11 +2,11 @@
 ## Overview
 This repository presents a machine learning project comparing traditional machine learning (ML) with deep learning (DL) algorithms for predicting California housing prices. 
 The project compares different models:
-- **XGBoost** – a small custom convolutional model  
-- **LightGBM** – a deeper custom network  
-- ***Neural Networks** – pretrained on ImageNet and fine-tuned for CIFAR-10  
+- **XGBoost**  
+- **LightGBM** 
+- **Neural Networks** 
 
-To ensure precise model efficiency, we utilize Nested Cross-Validation for hyperparameters tuning and implement consistent evaluation at outer folds. 
+To ensure precise model efficiency, we utilize Nested Cross-Validation for hyperparameter tuning and implement consistent evaluation at outer folds. 
 Pipeline integration is also applied to prevent data leakage.
 
 
@@ -31,8 +31,8 @@ This project is a regression task, focusing on several aspects on:
 ## Result
 Some insights:
 - It seems that Median Income (MedInc) is the strongest predictor.
-- House age have moderate negative correlation with price.
-- Traditional ML outperforms deep learning (DL), providing some rooms of improvements for DL.
+- House age has a moderate negative correlation with price.
+- Traditional ML outperforms deep learning (DL), providing some room for improvements for DL.
 <table>
   <tr>
     <th>model</th>
