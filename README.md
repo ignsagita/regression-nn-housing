@@ -33,6 +33,11 @@ Some insights:
 - It seems that Median Income (MedInc) is the strongest predictor.
 - House age has a moderate negative correlation with price.
 - Traditional ML outperforms deep learning (DL), providing some room for improvements for DL.
+  - XGBoost vs LightGBM: NOT SIGNIFICANT (p=0.1816)
+  - XGBoost vs NeuralNets: SIGNIFICANT (p=0.0000)
+  - LightGBM vs NeuralNets: SIGNIFICANT (p=0.0000)
+  - Statistically best model: XGBoost (1 significant wins)
+
 <table>
   <tr>
     <th>model</th>
