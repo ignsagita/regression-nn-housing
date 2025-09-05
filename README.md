@@ -69,6 +69,7 @@ Some insights:
   </tr>
 </table>
 
+- **Explanation**: Deep learning shines with unstructured data (images, text, audio); However, for tabular datasets like this, tree-based models (LightGBM, XGBoost, CatBoost) usually outperform neural nets.
 
 ## Quick Start
 - Clone this repository: git clone https://github.com/ignsagita/regression-nn-housing.git cd regression-nn-housing
